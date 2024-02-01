@@ -1,0 +1,63 @@
+:root {
+    --color-primary-text: #FFFFFF;
+    --color-secondary-text: #C0C0C0;
+    --color-button: #167BF7;
+    --color-background: #00030C;
+    --fonte-principal: 'Inter';
+}
+
+body {
+    background-color: var(--color-background);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container__titulo {
+    color: var(--color-primary-text);
+    font-weight: 700;
+    font-size: 28px;
+
+}
+
+.principal {
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__button {
+    background-color: var(--color-button);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--color-primary-text);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+    padding: 16px;
+}
+
+.button__secondary {
+    background-color: transparent;
+    border: 2px solid var(--color-primary-text);
+}
+
+.container__aviso {
+    color: var(--color-secondary-text);
+    font-size: 12px;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
